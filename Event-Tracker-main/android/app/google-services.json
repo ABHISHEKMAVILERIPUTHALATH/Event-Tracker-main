@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "105400614461",
+    "project_id": "tracker-f10e0",
+    "storage_bucket": "tracker-f10e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105400614461:android:52615ac9db8862a18c3454",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB67M_xG1VTzEbWHXLvo9r8v__WE9KCYJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
