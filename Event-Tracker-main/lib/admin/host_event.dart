@@ -303,10 +303,10 @@ class _HostEventState extends State<HostEvent> {
               const SizedBox(
                 height: 30.0,
               ),
-              Padding(
-                padding: const EdgeInsets.all(20.0),
+              const Padding(
+                padding: EdgeInsets.all(20.0),
                 child: Column(
-                  children: const [
+                  children: [
                     Text(
                       "Host Events here",
                       style: TextStyle(

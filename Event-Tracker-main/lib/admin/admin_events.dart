@@ -75,7 +75,7 @@ class _AdminEventsState extends State<AdminEvents> {
         centerTitle: true,
         backgroundColor: Colors.deepPurple,
       ),
-      backgroundColor: Color.fromARGB(96, 224, 224, 224),
+      backgroundColor: const Color.fromARGB(96, 224, 224, 224),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -504,9 +504,9 @@ class _AdminEventsState extends State<AdminEvents> {
                                     const SizedBox(
                                       height: 10.0,
                                     ),
-                                    Center(
+                                    const Center(
                                       child: Column(
-                                        children: const [
+                                        children: [
                                           SizedBox(
                                             height: 20,
                                           ),

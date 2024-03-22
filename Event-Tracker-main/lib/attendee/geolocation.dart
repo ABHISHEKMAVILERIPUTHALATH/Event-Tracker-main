@@ -23,15 +23,17 @@ class GeotrackPage extends StatefulWidget {
 }
 
 class _GeotrackPageState extends State<GeotrackPage> {
-  Position _eventLocation = const Position(
+  Position _eventLocation = Position(
     latitude: 0,
     longitude: 0,
-    timestamp: null,
+    timestamp: DateTime.now(),
     accuracy: 0,
     altitude: 0,
     heading: 0,
     speed: 0,
     speedAccuracy: 0,
+    altitudeAccuracy: 0,
+    headingAccuracy: 0,
   );
 
   Position? _userLocation;
@@ -65,12 +67,14 @@ class _GeotrackPageState extends State<GeotrackPage> {
           _eventLocation = Position(
             latitude: latitude,
             longitude: longitude,
-            timestamp: null,
+            timestamp: DateTime.now(),
             accuracy: 0,
             altitude: 0,
             heading: 0,
             speed: 0,
             speedAccuracy: 0,
+            altitudeAccuracy: 0,
+            headingAccuracy: 0,
           );
           rangeOfLocation = range;
         } else {

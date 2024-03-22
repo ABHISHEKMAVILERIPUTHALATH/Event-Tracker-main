@@ -41,7 +41,7 @@ dependencies:
   data_table_2: ^2.2.1
   google_maps_flutter: ^2.2.8
   geocoding: ^2.1.0
-  location: ^4.4.0
+  location:
   geolocator: ^9.0.2
   lottie: ^2.3.2
   qr_flutter: ^4.1.0
